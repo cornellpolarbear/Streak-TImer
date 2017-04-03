@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEB40081E92EEF100930B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB40071E92EEF100930B57 /* AppDelegate.swift */; };
+		1FEB400A1E92EEF100930B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB40091E92EEF100930B57 /* ViewController.swift */; };
+		1FEB400D1E92EEF100930B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB400B1E92EEF100930B57 /* Main.storyboard */; };
+		1FEB400F1E92EEF100930B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB400E1E92EEF100930B57 /* Assets.xcassets */; };
+		1FEB40121E92EEF100930B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEB40101E92EEF100930B57 /* LaunchScreen.storyboard */; };
+		1FEB401D1E92EEF100930B57 /* Streak_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB401C1E92EEF100930B57 /* Streak_TimerTests.swift */; };
+		1FEB40281E92EEF100930B57 /* Streak_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB40271E92EEF100930B57 /* Streak_TimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEB40191E92EEF100930B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEB3FFC1E92EEF000930B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEB40031E92EEF000930B57;
+			remoteInfo = "Streak Timer";
+		};
+		1FEB40241E92EEF100930B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEB3FFC1E92EEF000930B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEB40031E92EEF000930B57;
+			remoteInfo = "Streak Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEB40041E92EEF100930B57 /* Streak Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Streak Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEB40071E92EEF100930B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FEB40091E92EEF100930B57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FEB400C1E92EEF100930B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEB400E1E92EEF100930B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEB40111E92EEF100930B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FEB40131E92EEF100930B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEB40181E92EEF100930B57 /* Streak TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Streak TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEB401C1E92EEF100930B57 /* Streak_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak_TimerTests.swift; sourceTree = "<group>"; };
+		1FEB401E1E92EEF100930B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEB40231E92EEF100930B57 /* Streak TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Streak TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEB40271E92EEF100930B57 /* Streak_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streak_TimerUITests.swift; sourceTree = "<group>"; };
+		1FEB40291E92EEF100930B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEB40011E92EEF000930B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEB40151E92EEF100930B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEB40201E92EEF100930B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEB3FFB1E92EEF000930B57 = {
+			isa = PBXGroup;
+			children = (
+				1FEB40061E92EEF100930B57 /* Streak Timer */,
+				1FEB401B1E92EEF100930B57 /* Streak TimerTests */,
+				1FEB40261E92EEF100930B57 /* Streak TimerUITests */,
+				1FEB40051E92EEF100930B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEB40051E92EEF100930B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB40041E92EEF100930B57 /* Streak Timer.app */,
+				1FEB40181E92EEF100930B57 /* Streak TimerTests.xctest */,
+				1FEB40231E92EEF100930B57 /* Streak TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEB40061E92EEF100930B57 /* Streak Timer */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB40071E92EEF100930B57 /* AppDelegate.swift */,
+				1FEB40091E92EEF100930B57 /* ViewController.swift */,
+				1FEB400B1E92EEF100930B57 /* Main.storyboard */,
+				1FEB400E1E92EEF100930B57 /* Assets.xcassets */,
+				1FEB40101E92EEF100930B57 /* LaunchScreen.storyboard */,
+				1FEB40131E92EEF100930B57 /* Info.plist */,
+			);
+			path = "Streak Timer";
+			sourceTree = "<group>";
+		};
+		1FEB401B1E92EEF100930B57 /* Streak TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB401C1E92EEF100930B57 /* Streak_TimerTests.swift */,
+				1FEB401E1E92EEF100930B57 /* Info.plist */,
+			);
+			path = "Streak TimerTests";
+			sourceTree = "<group>";
+		};
+		1FEB40261E92EEF100930B57 /* Streak TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEB40271E92EEF100930B57 /* Streak_TimerUITests.swift */,
+				1FEB40291E92EEF100930B57 /* Info.plist */,
+			);
+			path = "Streak TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEB40031E92EEF000930B57 /* Streak Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEB402C1E92EEF100930B57 /* Build configuration list for PBXNativeTarget "Streak Timer" */;
+			buildPhases = (
+				1FEB40001E92EEF000930B57 /* Sources */,
+				1FEB40011E92EEF000930B57 /* Frameworks */,
+				1FEB40021E92EEF000930B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Streak Timer";
+			productName = "Streak Timer";
+			productReference = 1FEB40041E92EEF100930B57 /* Streak Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEB40171E92EEF100930B57 /* Streak TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEB402F1E92EEF100930B57 /* Build configuration list for PBXNativeTarget "Streak TimerTests" */;
+			buildPhases = (
+				1FEB40141E92EEF100930B57 /* Sources */,
+				1FEB40151E92EEF100930B57 /* Frameworks */,
+				1FEB40161E92EEF100930B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEB401A1E92EEF100930B57 /* PBXTargetDependency */,
+			);
+			name = "Streak TimerTests";
+			productName = "Streak TimerTests";
+			productReference = 1FEB40181E92EEF100930B57 /* Streak TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FEB40221E92EEF100930B57 /* Streak TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEB40321E92EEF100930B57 /* Build configuration list for PBXNativeTarget "Streak TimerUITests" */;
+			buildPhases = (
+				1FEB401F1E92EEF100930B57 /* Sources */,
+				1FEB40201E92EEF100930B57 /* Frameworks */,
+				1FEB40211E92EEF100930B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEB40251E92EEF100930B57 /* PBXTargetDependency */,
+			);
+			name = "Streak TimerUITests";
+			productName = "Streak TimerUITests";
+			productReference = 1FEB40231E92EEF100930B57 /* Streak TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEB3FFC1E92EEF000930B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bill Addo";
+				TargetAttributes = {
+					1FEB40031E92EEF000930B57 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1FEB40171E92EEF100930B57 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FEB40031E92EEF000930B57;
+					};
+					1FEB40221E92EEF100930B57 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FEB40031E92EEF000930B57;
+					};
+				};
+			};
+			buildConfigurationList = 1FEB3FFF1E92EEF000930B57 /* Build configuration list for PBXProject "Streak Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEB3FFB1E92EEF000930B57;
+			productRefGroup = 1FEB40051E92EEF100930B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEB40031E92EEF000930B57 /* Streak Timer */,
+				1FEB40171E92EEF100930B57 /* Streak TimerTests */,
+				1FEB40221E92EEF100930B57 /* Streak TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEB40021E92EEF000930B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEB40121E92EEF100930B57 /* LaunchScreen.storyboard in Resources */,
+				1FEB400F1E92EEF100930B57 /* Assets.xcassets in Resources */,
+				1FEB400D1E92EEF100930B57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEB40161E92EEF100930B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEB40211E92EEF100930B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEB40001E92EEF000930B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEB400A1E92EEF100930B57 /* ViewController.swift in Sources */,
+				1FEB40081E92EEF100930B57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEB40141E92EEF100930B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEB401D1E92EEF100930B57 /* Streak_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEB401F1E92EEF100930B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEB40281E92EEF100930B57 /* Streak_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEB401A1E92EEF100930B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEB40031E92EEF000930B57 /* Streak Timer */;
+			targetProxy = 1FEB40191E92EEF100930B57 /* PBXContainerItemProxy */;
+		};
+		1FEB40251E92EEF100930B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEB40031E92EEF000930B57 /* Streak Timer */;
+			targetProxy = 1FEB40241E92EEF100930B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FEB400B1E92EEF100930B57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEB400C1E92EEF100930B57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FEB40101E92EEF100930B57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEB40111E92EEF100930B57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEB402A1E92EEF100930B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FEB402B1E92EEF100930B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEB402D1E92EEF100930B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Streak Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bill.Streak-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FEB402E1E92EEF100930B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Streak Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bill.Streak-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FEB40301E92EEF100930B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Streak TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bill.Streak-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streak Timer.app/Streak Timer";
+			};
+			name = Debug;
+		};
+		1FEB40311E92EEF100930B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Streak TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bill.Streak-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streak Timer.app/Streak Timer";
+			};
+			name = Release;
+		};
+		1FEB40331E92EEF100930B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Streak TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bill.Streak-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Streak Timer";
+			};
+			name = Debug;
+		};
+		1FEB40341E92EEF100930B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Streak TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bill.Streak-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Streak Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEB3FFF1E92EEF000930B57 /* Build configuration list for PBXProject "Streak Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEB402A1E92EEF100930B57 /* Debug */,
+				1FEB402B1E92EEF100930B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEB402C1E92EEF100930B57 /* Build configuration list for PBXNativeTarget "Streak Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEB402D1E92EEF100930B57 /* Debug */,
+				1FEB402E1E92EEF100930B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FEB402F1E92EEF100930B57 /* Build configuration list for PBXNativeTarget "Streak TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEB40301E92EEF100930B57 /* Debug */,
+				1FEB40311E92EEF100930B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FEB40321E92EEF100930B57 /* Build configuration list for PBXNativeTarget "Streak TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEB40331E92EEF100930B57 /* Debug */,
+				1FEB40341E92EEF100930B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEB3FFC1E92EEF000930B57 /* Project object */;
+}
